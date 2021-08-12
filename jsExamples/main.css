@@ -1,0 +1,134 @@
+.container .row {
+    margin: 10px
+}
+
+.flex-conatiner {
+    min-height: 650px;
+    display: flex;
+    padding: 5px;
+    /* margin: 5px; */
+    border: 5px solid brown;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: stretch;
+    align-content: space-around;
+}
+
+.flex-conatiner div {
+    margin: 5px;
+}
+
+.flex-item1 {
+    background-color: pink;
+    border: 1px solid magenta;
+    padding: 5px;
+    flex-grow: 4;
+    flex-shrink: 2;
+}
+
+.flex-item2 {
+    background-color: lightgreen;
+    border: 1px solid green;
+    padding: 5px;
+
+}
+
+.flex-item3 {
+    background-color: grey;
+    border: 1px solid black;
+    padding: 5px;
+    order: 2;
+}
+
+.flex-item4 {
+    background-color: skyblue;
+    border: 1px solid blue;
+    padding: 5px;
+    order: 1;
+    align-self: flex-end;
+}
+
+.flex-item5 {
+    background-color: orange;
+    border: 1px solid orangered;
+    padding: 5px;
+    order: 2;
+    flex-grow: 4;
+    flex-shrink: 2;
+    align-self: flex-end;
+}
+
+.flex-item6 {
+    background-color: cyan;
+    border: 1px solid darkgreen;
+    padding: 5px;
+    flex-grow: 2;
+}
+
+.flex-item7 {
+    background-color: yellow;
+    border: 1px solid gold;
+    padding: 5px;
+    flex-basis: 200px;
+}
+
+.flex-item8 {
+    background-color: lightcoral;
+    border: 1px solid red;
+    padding: 5px;
+}
+
+.flex-item9 {
+    background-color: lightgreen;
+    border: 1px solid green;
+    padding: 5px;
+    order: 3;
+    align-self: flex-start;
+
+}
+
+.flex-item10 {
+    background-color: lightgreen;
+    border: 1px solid green;
+    padding: 5px;
+
+}
+
+.flex-item11 {
+    background-color: lightgreen;
+    border: 1px solid green;
+    padding: 5px;
+    flex-basis: 250px;
+    align-self: flex-start;
+
+}
+
+col.selected || td {
+  background: gray;
+  color: white;
+  font-weight: bold;
+}
+.block-element{
+    background-color:aquamarine;
+    margin:10px 30px;
+    padding: 20px;
+    height:250px
+    width:2 %;
+}
+strong{
+    background-color:wheat;
+    margin:25px;
+    padding:15px;
+    height:200px; // ntg happens
+    width:50%;
+}
+.nav{
+    background-color:yellowgreen
+}
+.nav li{
+    color:white;
+    margin:20px;
+
+   
+}
